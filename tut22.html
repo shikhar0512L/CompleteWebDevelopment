@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more styling</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .comtainer {
+            border: 3px solid red;
+            background-color: blanchedalmond;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+        }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(110, 6, 6);
+    background-color: blueviolet;
+}
+a:visited{
+background-color: burlywood;
+}
+a:active{
+    background-color: chocolate;
+}
+        .btn {
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            background-color: rgb(173, 169, 209);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            color: gold;
+            background-color: greenyellow;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="comtainer" id="cont1">
+        <h2>this is my heading</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi porro numquam ex exercitationem excepturi et
+            voluptate totam consequatur deserunt quis placeat facilis ullam culpa assumenda quasi, minus illo aut
+            fugiat, odio quae dolorum expedita dolores? Quas id dolore voluptatem veritatis!</p>
+        <a href="https://twitter.com/" class="btn">Read more</a>
+        <button class="btn">contact us</button>
+    </div>
+</body>
+
+</html>

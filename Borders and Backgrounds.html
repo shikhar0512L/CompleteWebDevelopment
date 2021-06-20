@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borders and Background</title>
+    <style>
+        #firstPara {
+            background-color: rgb(0, 110, 9);
+            height: 100px;
+            width: 190px;
+            border-radius: 11px;
+        }
+
+        #secondPara {
+            background-color: orange;
+            height: 100px;
+            width: 190px;
+            border-top:2px solid indigo;
+            border-bottom:2px solid rgb(0, 255, 115);
+            border-left: 2px solid rgb(223, 0, 204);
+            border-right: 2px solid rgb(146, 71, 0);
+            border-top-left-radius: 14px;
+        }
+        #thirdPara{
+            height: 500px;
+            width: 190px;
+            background-image: url('https://yt3.ggpht.com/ytc/AAUvwniPEnk1HortERKJH6uGhOPu9Ni7yKk7zQ8m_fNo=s176-c-k-c0x00ffffff-no-rj');
+            border: 2px solid red;
+            background-repeat: no-repeat; /* repeat-x and repeat-y will make it repeat on x and y axis  */
+            background-position: center top;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Borders and Backgrounds</h2>
+    <hr>
+    <h3>this is heading</h3>
+    <p id="firstPara">this is paragraph</p>
+
+    <h3>this is heading</h3>
+    <p id="secondPara">this is second paragraph</p>
+
+    <h3>this is heading</h3>
+    <p id="thirdPara">this is third paragraph</p>
+</body>
+
+</html>

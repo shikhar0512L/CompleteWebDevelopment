@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid crimson;
+            background-color: blanchedalmond;
+            margin: 33px auto;
+        }
+
+        .item {
+            border: 3px solid orchid;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background: rgb(235, 225, 218);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: left;
+            width: 48%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: left;
+            width: 100%;
+        }
+
+        p,
+        h3 {
+            /* text-align: right;
+    text-align: left;
+    text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 455px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>welcome to my store</h1>
+        <div id="fruit" class="item">
+            <h2>fruits</h2>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit
+                eligendi quo et expedita architecto necessitatibus tenetur molestias praesentium ea! Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Beatae numquam qui earum consequatur aperiam sit eum molestiae
+                cupiditate cum quia. </p>
+        </div>
+        <hr>
+        <div id="computer" class="item">
+            <h2>computer</h2>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit
+                eligendi quo et expedita architecto necessitatibus tenetur molestias praesentium ea! Lorem ipsum dolor
+                sit, amet consectetur adipisicing elit. Beatae numquam qui earum consequatur aperiam sit eum molestiae
+                cupiditate cum quia.</p>
+        </div>
+        <hr>
+        <div id="stationary" class="item">
+            <h2>stationary</h2>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit
+                eligendi quo et expedita architecto necessitatibus tenetur molestias praesentium ea!</p>
+        </div>
+        <hr>
+        <div id="glass" class="item">
+            <h2>glass</h2>
+            <p id="glasspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fugit
+                eligendi quo et expedita architecto necessitatibus tenetur molestias praesentium ea!</p>
+        </div>
+        <hr>
+    </div>
+</body>
+
+</html>
